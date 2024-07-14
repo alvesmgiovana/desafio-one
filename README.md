@@ -1,4 +1,4 @@
-# Decoficador de Textos - Desafio Alura + Oracle ONE
+# Decoficador de Textos - Desafio ONE
 
 ## Descrição do Projeto
 

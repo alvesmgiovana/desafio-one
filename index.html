@@ -1,5 +1,5 @@
-<!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,13 +7,15 @@
     <link rel="stylesheet" href="./styles/style.css">
     <link rel="shortcut icon" href="./assets/criptografado.png" type="image/x-icon">
 </head>
+
 <body>
     <header class="cabecalho">
         <img class="cabecalho-logo" src="./assets/logo.png" alt="Logo da alura">
     </header>
     <main>
         <section class="esquerda">
-            <textarea id="esquerda-input" class="esquerda-input" cols="41" rows="4" placeholder="Digite seu texto aqui"></textarea>
+            <textarea id="esquerda-input" class="esquerda-input" cols="40" rows="10"
+                placeholder="Digite seu texto aqui"></textarea>
 
             <a class="parte-aviso">
                 <img class="botao-aviso" src="./assets/exclamacao.png" alt="Exclamacao">Apenas letras minúsculas e sem
@@ -31,7 +33,7 @@
                 <p class="direitaOrientaçoesParag">Digite um texto que você deseja criptografar ou descriptografar.</p>
             </div>
             <div id="direitaResultado">
-                <p id="saidaTexto" class="saidaTexto" cols="41" rows="4"></p>
+                <p id="saidaTexto" class="saidaTexto" cols="40" rows="10"></p>
                 <button id="botaoCopiar" onclick="copiar()" class="botaoCopiar">Copiar</button>
             </div>
         </section>
@@ -41,4 +43,3 @@
     </footer>
     <script type="text/javascript" src="./scripts.js"></script>
 </body>
-</html>

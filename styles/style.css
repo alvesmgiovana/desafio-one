@@ -17,41 +17,47 @@
     font-family: var(--fonte);
 }
 
+html, body {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 body {
     background-color: var(--cor-terciaria);
     display: flex;
     flex-direction: column;
     align-items: center;
-    min-height: 100vh;
+    margin: auto;
+    max-height: 720px;
+    max-width: 1280px;
     overflow: hidden;
-    padding: 20px;
 }
 
 .cabecalho {
-    padding: 3% 0 0 15%; 
+    padding: 3% 0 2% 3%;
     width: 100%;
+}
+
+.cabecalho-logo {
+    width: 80px;
 }
 
 main {
     display: flex;
-    align-items: center;
-    width: 100%;
-    max-width: 1280px;
-    max-width: 800px;
-    gap: 2rem;
+    width: 70%;
+    gap: 30%;
 }
 
 .esquerda {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
-    background-color: var(--cor-terciaria);
+    background: transparent;
     width: 100%;
-    height: 50rem;
-    padding: 0, 10%, 0 0;
-    gap: 1rem;
-    margin-right: 30%;
+    gap: 20px;
 }
 
 .esquerda-input {
@@ -60,17 +66,17 @@ main {
     outline: none;
     border: none;
     resize: none;
-    padding: 0 1rem;
     font-size: 2rem;
     text-transform: lowercase;
     overflow-y: auto;
-    height: 80%;
+    height: 60%;
     width: 100%;
 }
 
 .parte-aviso {
+    margin-top: 10%;
     display: flex;
-    gap: 0.5rem;
+    gap: 1rem;
     font-size: 0.875rem;
     align-items: center;
 }
@@ -84,7 +90,7 @@ main {
 .btn,
 .botaoCopiar {
     height: 3.5rem;
-    width: 17rem;
+    width: 15rem;
     font-size: 1rem;
     border-radius: 1.5rem;
     cursor: pointer;
@@ -92,14 +98,6 @@ main {
     color: black;
     background-color: var(--cor-secundaria);
     box-shadow: 0px 0.5px 0.5px rgba(192, 192, 192, 0.1);
-}
-
-.botaoCopiar {
-    display: none;
-    position: fixed;
-    top: 880px;
-    bottom: 30;
-    width: 400px;
 }
 
 .btn:hover,
@@ -112,11 +110,11 @@ main {
 }
 
 .direita {
-    width: 100%;
-    height: 800px;
+    width: 250px;
+    height: 550px;
     background-color: var(--cor-secundaria);
     padding: 2rem;
-    border-radius: 2rem;
+    border-radius: 1.5rem;
     text-align: center;
     box-shadow: 0.5px 0.5px 10px rgba(0, 0, 0, 0.1);
     display: flex;
@@ -130,12 +128,12 @@ main {
     text-align: center;
     align-items: center;
     gap: 10px;
+    width: 100%;
 }
 
 .direita-imagem {
-    width: 80%;
+    width: 240px;
     padding-top: 50%;
-    max-width: 300px;
 }
 
 .direitaOrientacoes-titulo {
@@ -148,28 +146,32 @@ main {
 }
 
 #direitaResultado {
-    display: table;
+    display: flex;
     flex-direction: column;
     align-items: center;
-    width: 400px;
-    height: 100%;
-    padding: 5px;
+    padding: 1%;
 }
 
 #saidaTexto {
+    display: flex;
     color: var(--cor-quartenaria);
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     font-weight: 500;
     text-align: left;
     overflow-y: auto;
-    height: auto;
-    padding-top: 1rem;
+    height: 500px;
     word-break: break-all;
+
+}
+
+.botaoCopiar {
+    display: none;
+    justify-content: center;
+    align-items: center;
 }
 
 .rodape {
-    padding-top: 4rem;
-    text-decoration: none;
     color: black;
     text-align: center;
+    font-size: 0.875rem;
 }

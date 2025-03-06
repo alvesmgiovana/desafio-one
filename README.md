@@ -36,8 +36,8 @@ O projeto <strong>Decodificador</strong> foi um desafio proposto pela Alura + Or
 
 🔗 Acesse o projeto através deste link: [Decodificador](https://decoficador-de-texto.vercel.app/)&nbsp;
 
-![image](https://github.com/user-attachments/assets/f533a5f9-22a6-4e31-90be-f392967cd70e)
+![image](https://github.com/user-attachments/assets/dd3d19fc-519d-4448-be03-8d3b27a2bdb3)
 ![image](https://github.com/user-attachments/assets/0ecd4001-0ead-44f6-8922-d4d90952ba0e)
 
-### Muito obrigada pela sua atenção ♥
+### Muito obrigada pela sua atenção!
 
